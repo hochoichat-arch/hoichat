@@ -37,6 +37,6 @@ def delete_okx_dirs(base_path):
     print(f"📄 Log chi tiết đã ghi vào: {log_filename}")
 
 if __name__ == "__main__":
-    BASE_DIR = r"D:\\"  # 💡 Thay bằng thư mục gốc chứa các profile
+    BASE_DIR = r"D:\\"  # 💡 Thay bằng thư mục gốc hứa các profile
     delete_okx_dirs(BASE_DIR)
     input("Nhấn Enter để thoát...")
